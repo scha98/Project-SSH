@@ -7,7 +7,7 @@ public class client {
 	System.out.println();
 
 	try {
-	    String cmd = "ssh shahfiq@192.168.182.136";
+	    String cmd = "ssh shahima@"10.0.2.15;
 	    System.out.println("Executing command: " + cmd);
 	    Process p = Runtime.getRuntime().exec(cmd);
 	    int result = p.waitFor();
